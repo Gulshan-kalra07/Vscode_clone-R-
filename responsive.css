@@ -1,3 +1,32 @@
-@media (max-width:364px) {
+
+
+
+
+@media screen and (max-width:999px) {
+
+    .head-right-searchbar, .head-right-download {
+        display: none;
+    }
+
+    .head-middle {
+        display: none;
+
+    }
+
+    .head-right {
+        display: flex;
+        flex-basis:60%;
+        background-color: green;
+        justify-content: flex-end;
+    }
     
+
+
+    .head-right i {
+        display: flex;
+        font-size: 25px;
+        color: white;
+    }
+
+
 }
